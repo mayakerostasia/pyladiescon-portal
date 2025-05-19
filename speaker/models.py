@@ -56,7 +56,7 @@ REGION_CHOICES = [
 
 
 class SpeakerProfile(BaseModel):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    # user = models.OneToOneField(User, on_delete=models.CASCADE)
     # roles = models.ManyToManyField(
     #     "Role", verbose_name="Roles", related_name="roles", blank=True
     # )
