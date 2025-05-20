@@ -34,6 +34,12 @@ REGION_CHOICES = [
 ]
 
 
+class Event(BaseModel):
+    pass
+
+class Proposal(BaseModel):
+    pass
+
 # class Team(BaseModel):
 #     short_name = models.CharField("name", max_length=40)
 #     description = models.CharField("description", max_length=1000)
